@@ -40,25 +40,21 @@
             <tr>
                 <td><b>会社名</b></td>
                 <% content = params["company"] %>
-                <% content = content.gsub(/\r\n|\r|\n/, "<br>") %>
                 <td><%= content %></td>
             </tr>
             <tr>
                 <td><b>氏名</b></td>
                 <% content = params["name"] %>
-                <% content = content.gsub(/\r\n|\r|\n/, "<br>") %>
                 <td><%= content %></td>
             </tr>
             <tr>
                 <td><b>メール</b></td>
                 <% content = params["mail"] %>
-                <% content = content.gsub(/\r\n|\r|\n/, "<br>") %>
                 <td><%= content %></td>
             </tr>
             <tr>
                 <td><b>電話番号</b></td>
                 <% content = params["tel"] %>
-                <% content = content.gsub(/\r\n|\r|\n/, "<br>") %>
                 <td><%= content %></td>
             </tr>
             <tr>
